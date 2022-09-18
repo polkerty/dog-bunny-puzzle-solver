@@ -102,6 +102,7 @@ def search():
             print("Found! ", len(history))
             for step in history:
                 print(step)
+            print(graph.description)
 
             break
         for n in graph.neighbors():
